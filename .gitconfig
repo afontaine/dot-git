@@ -1,0 +1,18 @@
+[url "https://"]
+	insteadOf = git://
+[user]
+	email = andrew@afontaine.ca
+	name = Andrew Fontaine
+	signingkey = FFFE885CB4
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+[push]
+	default = current
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lg2 = log --graph --pretty=format:'%h -%d %s (%cr) <%an>' --abbrev-commit
+[pull]
+	rebase = true
+[help]
+	autocorrect = 5
