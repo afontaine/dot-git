@@ -16,3 +16,9 @@
 	rebase = true
 [help]
 	autocorrect = 5
+[merge]
+	tool = meld
+[mergetool "meld"]
+	path = /usr/bin/meld
+[difftool]
+	prompt = false
