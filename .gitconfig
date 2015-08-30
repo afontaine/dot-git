@@ -1,9 +1,7 @@
-[url "https://"]
-	insteadOf = git://
 [user]
 	email = andrew@afontaine.ca
 	name = Andrew Fontaine
-	signingkey = FFFE885CB4
+	signingkey = FE885CB4
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore
@@ -22,3 +20,5 @@
 	path = /usr/bin/meld
 [difftool]
 	prompt = false
+[commit]
+	gpgsign = true
