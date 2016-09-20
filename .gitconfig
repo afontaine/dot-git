@@ -1,7 +1,7 @@
 [user]
 	email = andrew@afontaine.ca
 	name = Andrew Fontaine
-	signingkey = FE885CB4
+	signingkey = 5C5029FC
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore
@@ -15,9 +15,7 @@
 [help]
 	autocorrect = 5
 [merge]
-	tool = meld
-[mergetool "meld"]
-	path = /usr/bin/meld
+	tool = vim
 [difftool]
 	prompt = false
 [commit]
