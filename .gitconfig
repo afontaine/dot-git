@@ -8,8 +8,8 @@
 [push]
 	default = current
 [alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	lg2 = log --graph --pretty=format:'%h -%d %s (%cr) <%an>' --abbrev-commit
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset %C(dim magenta){%G?% GS% GK}%Creset' --abbrev-commit
+	lg2 = log --graph --pretty=format:'%h -%d %s (%cr) <%an> {%G?% GS% GK}' --abbrev-commit
 [pull]
 	rebase = true
 [help]
